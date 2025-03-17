@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import "leaflet/dist/leaflet.css";
+
+.leaflet-container {
+    z-index: 0 !important;
+}
