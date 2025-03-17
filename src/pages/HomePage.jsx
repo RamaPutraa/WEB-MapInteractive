@@ -257,7 +257,7 @@ const HomePage = () => {
 
   const handleLogout = useCallback(async () => {
     try {
-      const response = await fetch("http://localhost:1126/api/auth/logout", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/auth/logout`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
