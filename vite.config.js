@@ -7,4 +7,5 @@ export default defineConfig({
     port: 1127
   },
   plugins: [tailwindcss(), react()],
+  assetsInclude: ["**/*.png"]
 });

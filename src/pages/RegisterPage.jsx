@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 
 const RegisterPage = () => {
@@ -107,7 +107,7 @@ const RegisterPage = () => {
           <div>
             <p className="flex justify-center mt-3">
               Already have an account?{" "}
-              <a href="/login" className="text-indigo-600 font-medium">Log in</a>
+              <Link to="/login" className="text-indigo-600 font-medium">Log in</Link> 
             </p>
           </div>
         </div>
